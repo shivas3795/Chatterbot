@@ -1,0 +1,194 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - gm
+    - hey there
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good bye
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - yea
+    - ok
+    - okay
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you robot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+- intent: affirm
+  examples: |
+    - yes
+    - ok
+    - okay
+    - indeed
+    - Thank you
+    - thanks
+    - of course
+    - that sounds good
+    - correct
+    
+- intent: bank_rate
+  examples: |
+    - what is bank rate
+    - how much is bank rate
+    - tell me rate offered by bank
+    - rate of interest offered 
+    - i want to know the current rate of interest
+
+- intent: open_bank_account
+  examples: |
+    - how to open bank account
+    - process to open bank account
+    - procedure for opening new bank account
+    - please tell me how to open bank account
+    - open bank account
+    
+- intent: loan
+  examples: |
+    - how to get loan
+    - process of getting loan
+    - what is the procedure to get loan
+    - tell me how do I get loan
+    
+- intent: education_loan
+  examples: |
+    - how to get education loan
+    - process of getting education loan
+    - what is the procedure to get education loan
+    - tell me how do I get education loan
+    
+- intent: home_loan
+  examples: |
+    - how to get house loan
+    - process of getting home loan
+    - what is the procedure to get home loan
+    - tell me how do I get home loan
+    
+- intent: car_loan
+  examples: |
+    - how to get car loan
+    - process of getting four wheeler loan
+    - what is the procedure to get car loan
+    - tell me how do I get car loan
+    
+- intent: fd_open
+  examples: |
+    - how to book new fixed deposit (FD)
+    - process to open fd
+    - procedure for opening new fixed deposit
+    - please tell me how to open fd
+    - open fd
+    
+- intent: fd_close
+  examples: |
+    - how to close fixed deposit (FD)
+    - process to close fd
+    - procedure for closing new fixed deposit
+    - please tell me how to close fd
+    - close fd
+    
+- intent: fd_rate
+  examples: |
+    - what is fixed deposit rate
+    - how much is fd rate
+    - tell me rate offered on fixed deposit
+    - rate of interest offered on fd
+    - i want to know the current rate of interest on fd
+    
+- intent: debit_charges
+  examples: |
+    - how much is debit card charges
+    - what is the charge for new debit card
+    - tell me rate for renewal of debit card
+    - charges for new debit card
+    - charges for replacing debit card
+    - debit card charges
+    
+- intent: credit_charges
+  examples: |
+    - how much is credit card charges
+    - what is the charge for new credit card
+    - tell me rate for renewal of credit card
+    - charges for new credit card
+    - charges for replacing credit card
+    - credit card charges
+    
+- intent: forgot_netbanking_password
+  examples: |
+    - i forgot my net banking password
+    - how to retreive forgotten net banking password
+    - how to get netbanking password if forgotten
+    - process of getting new netbanking password
+    - how to change net banking password
+    - what is the procedure to create or change netbanking password
+    
+- intent: forgot_netbanking_userID
+  examples: |
+    - i forgot my net banking userID
+    - how to retreive forgotten net banking user ID
+    - how to get netbanking user id if forgotten
+    - process of getting new netbanking user name
+    - how to change net banking user ID
+    - what is the procedure to create or change netbanking user
+    
+- intent: forgot_debit_password
+  examples: |
+    - i forgot my debit card password
+    - how to retreive forgotten atm pin
+    - how to get atm password if forgotten
+    - process of getting new atm card password
+    - how to change ATM card PIN
+    - what is the procedure to create or change debit card PIN
+    
+- intent: forgot_upi_password
+  examples: |
+    - i forgot my upi password
+    - how to retreive forgotten upi pin
+    - how to get mobile UPI password if forgotten
+    - process of getting new bank upi password
+    - how to change UPI user PIN
+    - what is the procedure to create or change pin of any UPI id
